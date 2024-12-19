@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    background: rgb(74, 3, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+/* Top Section */
+
+#Top-section {
+    display: flex;
+}
+
+#Brain-fm-logo {
+    flex-grow: 1;
+    margin: 10px;
+}
+
+#Top-section button {
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+}
+
+div button #Sign-in-button {
+    background-color: transparent;
+}
+
+#Sign-in-button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+#Try-button {
+    width: 125px;
+    border-radius: 25px;
+    background: linear-gradient(to right,rgb(213, 170, 16),rgb(255, 149, 0));
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+div #Try-button {
+    margin-right: 100px;
+}
+
+/* Top Section */
+/* Middle Section */
+
+#Middle-Section {
+    margin: 150px 25px;
+    display: flex;
+}
+
+#Middle-Section h2 {
+    margin-bottom: 1px;
+    font-weight: 300;
+}
+
+#Middle-Section h1 {
+    margin-top: 1px;
+}
+
+#Intro-Section img {
+    margin-bottom: 30px; 
+}
+
+#Middle-Section img {
+    width: 100%;
+}
+
+#Intro-Section button {
+    padding: 20px;
+    border-radius: 40px;
+    width: 200px;
+    background: linear-gradient(to right,rgb(213,170,16), rgb(255,149,0));
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/*Middle Section */
+/*Bottom Section */
+h3 {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#Bottom-Section {
+    display: flex;
+}
+
+#Bottom-Section img {
+    width: 100%;
+}
+
+#Left-Section {
+    margin-left: 100px;
+}
+
+#Left-Section span {
+    font-weight: bold;
+}
+
+#Left-Section span {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
+#Right-Section {
+margin-left: 50px;
+margin-right: 100px;
+}
+
+#Right-Section span {
+    font-weight: bold;
+}
