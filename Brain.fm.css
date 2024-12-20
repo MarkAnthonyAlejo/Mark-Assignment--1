@@ -1,19 +1,21 @@
 body {
     margin: 0;
-    background: rgb(74, 3, 255);
+    background: #4914F8;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
+    color: #C1BED1;
 }
 
 /* Top Section */
 
 #Top-section {
     display: flex;
+    margin-right: 300px;
 }
 
 #Brain-fm-logo {
     flex-grow: 1;
     margin: 10px;
+    margin-left: 50px;
 }
 
 #Top-section button {
@@ -50,26 +52,51 @@ div #Try-button {
 /* Middle Section */
 
 #Middle-Section {
-    margin: 150px 25px;
-    display: flex;
+    margin-top: 250px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 #Middle-Section h2 {
+    width: 800px;
     margin-bottom: 1px;
+    margin-right: 0px;
     font-weight: 300;
+    font-size: 40px;
 }
 
 #Middle-Section h1 {
+    color: white;
     margin-top: 1px;
+    margin-right: 0px;
+}
+
+#Middle-Section h2 {
+    color: white;
+}
+
+
+#Middle-Section img {
+    max-width: 800px;
+}
+
+#Intro-Section {
+    max-width: 700px;
+    margin-left: 50px;
+    margin-right: 250px;
+    float: left;
+}
+
+#Intro-Section #Intro-p {
+    font-size:x-large
 }
 
 #Intro-Section img {
+    width: 80%;
     margin-bottom: 30px; 
 }
 
-#Middle-Section img {
-    width: 100%;
-}
 
 #Intro-Section button {
     padding: 20px;
@@ -79,42 +106,72 @@ div #Try-button {
     color: white;
     border: none;
     cursor: pointer;
-    font-weight: 600;
+    font-size:medium;
+    margin-right: 700px;
+}
+
+#Image-Section {
+    display: inline;
+    margin-left: -200px;
+    width: 600px;
+}
+
+#Image-Section img {
+    margin-right: 10px;
+    padding-right: 10px;
 }
 
 /*Middle Section */
 /*Bottom Section */
 h3 {
     text-align: center;
-    margin-bottom: 150px;
+    margin-top: 400px;
+    margin-bottom: 250px;
 }
 
-#Bottom-Section {
+#Bottom-Images {
     display: flex;
+    margin: 100px 300px;
+    margin-bottom: -150px;
 }
 
-#Bottom-Section img {
-    width: 100%;
+#Bottom-Images img  {
+    width: 600px;
+    margin: 50px;
 }
 
-#Left-Section {
-    margin-left: 100px;
+#Bottom-Info {
+    display: flex;
+    margin: 100px 300px;
+    color: white;
+    font-size:x-large;
 }
 
-#Left-Section span {
-    font-weight: bold;
+#Bottom-Info div {
+    width: 600px;
+    margin: 50px;
 }
 
-#Left-Section span {
+#Left-Info span {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+#Left-Info p {
+    font-weight: 200;
+}
+
+#Left-Info span h4 {
     text-decoration: underline;
-    text-decoration-thickness: 3px;
+    text-decoration-thickness:3px;
 }
 
-#Right-Section {
-margin-left: 50px;
-margin-right: 100px;
+#Right-Info span {
+    font-size: xx-large;
+    font-weight: 400;
 }
 
-#Right-Section span {
-    font-weight: bold;
+#Right-Info p {
+    font-weight: 200;
 }
+
