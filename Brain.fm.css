@@ -99,14 +99,14 @@ div #Try-button {
 
 
 #Intro-Section button {
-    padding: 20px;
-    border-radius: 40px;
-    width: 200px;
+    padding: 30px;
+    border-radius: 50px;
+    width: 300px;
     background: linear-gradient(to right,rgb(213,170,16), rgb(255,149,0));
     color: white;
     border: none;
     cursor: pointer;
-    font-size:medium;
+    font-size:large;
     margin-right: 700px;
 }
 
